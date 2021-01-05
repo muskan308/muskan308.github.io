@@ -1,0 +1,175 @@
+header{
+    background-image: url(../bing.jpeg);
+    height:500px;
+    width: 1500px;
+    border: black;
+
+    background-size: cover;/*to set cover size image*/
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+}
+.nav1>ul>li{
+    display: inline;
+   
+    margin: 3px 90px;
+    font-size: 20px;
+   
+ 
+}
+.nav1>ul>li>a{
+    color: white;
+}
+.nav1>ul>li:hover{
+   color: tomato;
+   cursor: pointer;
+   border-bottom:2px solid red;
+   
+
+}
+.name{
+    font-family:sans-serif;
+    font-weight:700;
+    font-style: normal;
+    font-size: 40px;
+    margin: 20px 470px;
+    padding:30px 30px;
+}
+.name>h3{
+    padding-left: 80px;
+    color: white;
+}
+.nav{
+margin: 20px 590px;
+text-decoration: none;
+list-style-type: none;
+}
+.nav>li{
+    margin: 5px;
+    display: inline;
+    padding: 5px;
+
+}
+.nav>li>a>i{
+    color: white;
+ font-size: 30px;
+ padding-left: 7px;
+
+}
+.nav>li>a>i:hover{
+    box-shadow: 0px 0px 8px 2px rgb(247, 232, 232);
+    border-radius: 50%;
+    padding: 5px;
+    outline: none;
+}
+.about>p{
+    margin: 100px 250px;
+    width:1000px;
+    height: auto;
+    color: rgb(243, 247, 243);
+    font-family: 'Redressed', cursive;
+  
+    font-size: 30px;
+    padding: 50px 10px;
+
+    background-image: linear-gradient(120deg,rgb(216, 152, 152),rgb(182, 182, 238));
+}
+.about{
+    margin:100px 0px;
+}
+.img img{
+    margin:-95px 630px;
+    border-radius: 50%;
+    width: 250px;
+    z-index: 999;
+ 
+    box-shadow: 0px 0px 6px 2px blue;
+}
+.clearfix{
+    clear:both;
+}
+.head{
+    text-decoration: underline ;
+    color: blue;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    margin: 8px 650px;
+}
+.hr1{
+    margin:auto;
+}
+#skilll tr td{
+list-style-type: none;
+position: relative;
+top:3px;
+left:300px;
+font-family: sans-serif;
+font-size: 30px;
+color: brown;
+padding: 5px;
+
+}
+.iconimg{
+    width:50px;
+    height:auto;
+}
+ol{
+    list-style-type: none;
+position: relative;
+top:3px;
+left:300px;
+font-family: sans-serif;
+font-size: 28px;
+color: brown;
+padding: 6px;
+
+
+}
+#tech{
+    margin:3px 500px;
+}
+.skills{
+    margin: 50px auto;
+    
+  
+}
+.tech{
+    margin: 40px auto;
+}
+.contact{
+    margin: 40px auto;
+}
+.education{
+    margin: 40px auto;
+}
+ol>li{
+padding-bottom: 7px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    position: relative;
+}
+.main::before{
+    content:"";
+
+    background-image: url(../clouds.jpg);
+    background-size: cover;
+    opacity: 0.2;
+    position:absolute;
+top:0;
+right:0;
+left:0;
+bottom:0;
+
+}
+.contact>div{
+    padding-bottom: 40px;
+}
+aside>a{
+    float: right;
+    padding-bottom: 20px;
+    color: green;
+font-weight: bold;
+}
